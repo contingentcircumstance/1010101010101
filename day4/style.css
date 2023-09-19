@@ -1,0 +1,29 @@
+.box {width: 50%; height: 10rem; background-color: green; border-radius: 50%; margin: 20px
+}
+
+
+a{
+    background-color: bisque;
+}
+.parent {width: 20rem;
+height:20rem;
+background-color: cornflowerblue;}
+.child {background-color: blue;
+width: 50%;
+height: 50%;
+border: 3px solid lime;}
+.child2 { width: 5rem; height: 10rem;
+    background-color: aquamarine;
+}
+
+
+p{ background: purple;
+    font-size:3rem; width: 50%;
+
+}
+
+.em {background-color: blueviolet; padding: 1em; text-align: center;
+}
+
+.rem{background-color: pink; padding:1rem; text-align: center;
+}
