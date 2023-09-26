@@ -1,4 +1,7 @@
 h1 { color: blue ;}
 h2 {width: 5rem }
 h3{ color: blanchedalmond; background-color: pink; }
-.box {width: 20%; position:absolute; height:50% }
+.box {width: 20%; position:absolute; left: 500px }
+
+.beautiful {position: fixed; left: 800px; top:0px }
+.cell {background-color: aqua;}
