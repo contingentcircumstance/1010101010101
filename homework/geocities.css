@@ -1,14 +1,20 @@
+html {scroll-behavior: smooth;}
 
-body {background-color:antiquewhite;
-background-image: ;}
-.title {position: absolute; top:0;
-    left: 50%; transform: translate(-50%, -50%);}
-h1 { color: blue ;}
-h2 {width: 5rem }
+body {margin:0; background-image:url(house4.jpg);background-size: 90rem;}
+.title {position: absolute; top:0; left: 50%; transform: translate(-50%, -50%); color: blue;} 
+.ascii { position:relative;}
+.dove {top:10px; left:100px }
+.mail {top: 5px; left: 500px}
+.box {width: 5rem;
+    height: 5rem;
+    margin: 0.5rem; 
+    display: grid; 
+    place-items:center;} .one {position:relative; 
+        top: 30px; left: 600px; width: 10rem; height: 10rem; display:block;}
 h3{ color: blanchedalmond; background-color: pink; }
-.box{width: 20%;}
+
+.dirt{width: 20%; border: black 50% ;}
 .beautiful {position: fixed; left: 1000px; top:0px }
-.cell {background-color:;}
 .award { position: absolute; top: 1000px; left:1200px }
 .cmap2 {width:50%; height:40%; position:relative; ;
-};}
+}
