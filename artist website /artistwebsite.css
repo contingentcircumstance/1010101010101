@@ -1,0 +1,10 @@
+html{scroll-behavior: smooth;}
+body {margin:0; background-image:url(house4.jpg); background-size:90rem;
+}  
+.title {
+ color:blue; text-align: center;}
+.cmap { width:50%; height: 50%;
+
+}
+figcaption {font: size 10rem;;}
+.craigslist {width:80%; height: 80%;}

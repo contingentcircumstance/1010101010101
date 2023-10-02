@@ -1,7 +1,18 @@
 html {scroll-behavior: smooth;}
 
 body {margin:0; background-image:url(house4.jpg);background-size: 90rem;}
-.title {position: absolute; top:0; left: 50%; transform: translate(-50%, -50%); color: blue;} 
+h1 {position: absolute; top:0; left: 50%; transform: translate(-50%, -50%); color: blue;} 
+.container {
+    margin:0 auto; background-color:white;
+}
+
+
+
+
+
+
+
+
 .ascii { position:relative;}
 .dove {top:10px; left:100px }
 .mail {top: 5px; left: 500px}
