@@ -1,10 +1,53 @@
-html{scroll-behavior: smooth;}
-body {margin:0; background-image:url(house4.jpg); background-size:90rem;
+html{scroll-behavior: smooth;
+     margin:0;
+     padding:0}
+
+body {margin:0;
+    padding:0;
+     background-image:url(house4.jpg);
+      background-size:90rem;
 }  
 .title {
  color:blue; text-align: center;}
-.cmap { width:50%; height: 50%;
+
+ .code-container {text-align: center; }
+
+
+ .code-block {
+    display:inline-block;
+    margin:10px; /* Add margin for spacing between blocks */
+    padding:10px;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    overflow:auto; }
+    
+.container{ display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30vh;
+    margin:0 20px}
+ 
+    .left-margin, .right-margin{ flex: 1; /* Distribute remaining space evenly */
+        text-align: center; margin:20px;}
+    .left-margin img, .right-margin img{margin-bottom:  20px; }
+  
+
+.hummingbird {max-width:100%; height:auto;}
+.hands {max-width:100%; height:auto;}
+.text-section { flex:3; text-align:center; margin:10px 0; padding:10px;}
+
+.text-section h2 {font-size:24px; margin:0;
 
 }
-figcaption {font: size 10rem;;}
-.craigslist {width:80%; height: 80%;}
+
+.text-section p {font-size: 16px; line-height:1.5; margin:0}
+h2 {text-align: center; margin-top: 20px; margin:0;}
+
+
+
+
+.cmap, .cmap1, .cmap2, .craigslist {width:50%; height: auto;}
+
+figcaption {font-size: 10px,}
+.craigslist {width:80%}
+
+.candle, .award {max-width:100%; height:auto}

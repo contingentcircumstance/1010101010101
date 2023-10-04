@@ -1,6 +1,8 @@
 html {scroll-behavior: smooth;}
 
-body {margin:0; background-image:url(house4.jpg);background-size: 90rem;}
+body {margin:0; padding:0; 
+    background-image:url(house4.jpg);
+    background-size: 90rem;}
 h1 {position: absolute; top:0; left: 50%; transform: translate(-50%, -50%); color: blue;} 
 .container {
     margin:0 auto; background-color:white;
