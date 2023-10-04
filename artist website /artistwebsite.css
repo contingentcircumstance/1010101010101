@@ -1,7 +1,7 @@
 html{scroll-behavior: smooth;
      margin:0;
      padding:0}
-
+ .beautiful {position: fixed; left: 1100px; top:0px }
 body {margin:0;
     padding:0;
      background-image:url(house4.jpg);
@@ -45,7 +45,11 @@ h2 {text-align: center; margin-top: 20px; margin:0;}
 
 
 
-.cmap, .cmap1, .cmap2, .craigslist {width:50%; height: auto;}
+.text-section img {
+    max-width: 60%; /* Limit the image width */
+    height: auto; /* Maintain the aspect ratio */
+    margin: 10px 0; /* Add margin for spacing between images */
+}
 
 figcaption {font-size: 10px,}
 .craigslist {width:80%}
