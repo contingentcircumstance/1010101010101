@@ -1,12 +1,13 @@
 html{scroll-behavior: smooth;
      margin:0;
      padding:0}
- .beautiful {position: fixed; left: 1100px; top:0px }
+
 body {margin:0;
     padding:0;
      background-image:url(house4.jpg);
       background-size:90rem;
 }  
+.beautiful {position: fixed; left: 1100px; top:0px;}
 .title {
  color:blue; text-align: center;}
 
@@ -46,7 +47,7 @@ h2 {text-align: center; margin-top: 20px; margin:0;}
 
 
 .text-section img {
-    max-width: 60%; /* Limit the image width */
+    max-width: 40%; /* Limit the image width */
     height: auto; /* Maintain the aspect ratio */
     margin: 10px 0; /* Add margin for spacing between images */
 }
@@ -55,3 +56,14 @@ figcaption {font-size: 10px,}
 .craigslist {width:80%}
 
 .candle, .award {max-width:100%; height:auto}
+
+.webring {border: 4px dashed blue;
+    padding: 1rem; width: max-content; margin-right:1rem; margin-left:1rem; flex:3;} 
+    .flower {position:absolute;
+        right:20px; 
+        top:2000px;
+        }
+.dove { position:absolute; left:20px; top:2000px;}
+.flower2 {position:absolute; left:20px; top:1500px}
+.flower3 {position:absolute; right:20px; top:1500px}
+      

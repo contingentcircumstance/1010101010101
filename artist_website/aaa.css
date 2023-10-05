@@ -1,4 +1,4 @@
-.webring {border: 4px dashed blue;
-padding: 1rem; width: max-content;}
+.webring {border: 4px blue;
+padding: 1rem; width: max-content; margin-right:1rem; margin-left:1rem;}
 .webring a {margin-right: 1rem;
 margin-left: 1rem;}
