@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*outline: 2px solid red;*/
+
+}
+
+margin body {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    margin-bottom: 2rem;
+
+    text-align: center;
+}
+
+.grid-gallery {
+    --spacing: 12px;
+
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing);
+    padding: var(--spacing);
+}
+
+.card {
+
+    background-color: rgba(0, 100, 255, 1);
+
+    position: relative;
+
+    aspect-ratio: 1/1;
+
+}
+
+.card_img {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card_overlay {
+    background-color: rgba(50, 200, 100, .5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    font-size: 3rem;
+
+    opacity: 0;
+
+    transition: opacity 0.25s;
+
+    display: grid;
+    place-items: center;
+
+}
+
+.card:hover .card_overlay {
+    opacity: 1;
+
+}
+
+/* query is like its own media query inside of the stylesheet, takes effect once the page is under 500px*/
+/*@media (max-width:800px) {
+    .grid-gallery{
+        grid-template-columns: 1fr 1fr;
+        background-color: aqua;
+
+    }
+
+
+}
+*/
+@media (max-width: 500px) {
+    .grid-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .card_overlay {
+        opacity: 1;
+        transition: unset;
+
+    }
+}
